@@ -127,9 +127,12 @@ p {
   justify-content: space-between;
   align-items: center;
   background-color: #e4e4e4;
- 
+  z-index: 1;
   position: fixed; 
   transition: all 0.5s ease;
+}
+.main-logo-container {
+  width: 30%;
 }
 .logo-container {
   width: 150px;
@@ -144,6 +147,9 @@ p {
   display: flex;
   align-items: center;
   margin-right: 10px;
+}
+.nav-bar2 {
+  display: none;
 }
 .option {
   color: gray;
@@ -174,6 +180,26 @@ p {
   font-size: 1.5rem;
   margin-right: 10px;
   transition: all 0.5s ease;
+}
+.theme-changer-icon-dark2 {
+  color: rgb(2, 218, 200);
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+  display: none;
+}
+.theme-changer-icon-light2 {
+  color: red;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+  display: none;
+}
+.menu-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+  display: none;
 }
 /* ///////////////Hero///////////////  */
 
@@ -452,6 +478,43 @@ p {
   }
   .main-element-container-light {
     width: 70%;
+  }
+  .header-dark {
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.1rem;
+  }
+  .header-light {
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.1rem;
+  }
+  .main-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+  .menu-icon {
+    display: block;
+  }
+  .theme-changer-icon-dark2 {
+    display: flex;
+  }
+  .theme-changer-icon-light2 {
+    display: flex;
+  }
+  .menu-container {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+  }  
+  .nav-bar {
+    display: none;
+  }
+  .nav-bar2 {
+    display: block;
   }
   .services-sub-container2 {
     width: 100%;
