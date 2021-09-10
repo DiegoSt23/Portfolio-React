@@ -1,9 +1,10 @@
 import useTheme from "../theme/useTheme";
-
+import Data from "../CV/CV.pdf"
 
 const Contact = () => {
-  
+  const cvDiego = Data;
   const {themeStatus} = useTheme();
+
   return (
     <div className={themeStatus ? "container-dark-theme" : "container-light-theme"}>
       <div className={themeStatus ? "main-contact-container-dark" : "main-contact-container-light"}>
@@ -15,9 +16,9 @@ const Contact = () => {
           <h4>Estado de México, México</h4>                
         </div>
         <div className="contact-sub-container-2">
-          {/* <a download target="blank">
+          <a href={cvDiego} download target="blank">
             <button className={themeStatus ? "button-dark" : "button-light"}>Download CV</button>
-          </a>           */}
+          </a>          
           <h3 className={themeStatus ? "text-dark-2" : "text-light-2"}>OR</h3>
           <a href="https://api.whatsapp.com/send?phone=525540762469" target="blank">
             <button className={themeStatus ? "button-dark" : "button-light"}>Send WhatsApp</button>

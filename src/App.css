@@ -444,7 +444,9 @@ p {
 }
 
 @media screen and (max-width: 576px) {
-  
+  .main-container {
+    font-size: 1rem;
+  }
   .main-element-container-dark {
     width: 70%;
   }
@@ -453,12 +455,19 @@ p {
   }
   .services-sub-container2 {
     width: 100%;
+    margin-top: 50px;
   }
   .project-container {
     flex-direction: column;
   }
   .gallery-container {
-    width: 90%;
+    width: 95%;
+  }
+  .gallery-container-dark {
+    width: 75%;
+  }
+  .gallery-container-light {
+    width: 75%;
   }
   .project-info-container {
     width: 100%;
@@ -477,8 +486,10 @@ p {
     width: 100%;
     margin-top: 50px;
   }
+  .icons-container {
+    width: 100%;
+  }
 
-  
 }
 
 
