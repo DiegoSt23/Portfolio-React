@@ -43,4 +43,7 @@
   .icons-container {
     width: 100%;
   }
+  .about-container {
+    margin-top: 80px;
+  }
 }

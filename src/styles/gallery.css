@@ -47,8 +47,13 @@
   }
   .gallery-container-dark {
     width: 75%;
+    margin-top: 50px;
   }
   .gallery-container-light {
     width: 75%;
+    margin-top: 50px;
+  }
+  .nav-buttons-container {
+    margin-top: 50px;
   }
 }

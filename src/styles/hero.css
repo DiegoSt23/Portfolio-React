@@ -32,8 +32,10 @@
 @media screen and (max-width: 576px) {
   .main-element-container-dark {
     width: 70%;
+    margin-top: 0px;
   }
   .main-element-container-light {
     width: 70%;
+    margin-top: 0px;
   }
 }
