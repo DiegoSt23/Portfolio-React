@@ -1,14 +1,14 @@
+import "../styles/contact.css";
 import useTheme from "../theme/useTheme";
-import Data from "../CV/CV.pdf"
+import CV from "../CV/CV.pdf"
 
 const Contact = () => {
-  const cvDiego = Data;
+  const cvDiego = CV;
   const {themeStatus} = useTheme();
 
   return (
     <div className={themeStatus ? "container-dark-theme" : "container-light-theme"}>
-      <div className={themeStatus ? "main-contact-container-dark" : "main-contact-container-light"}>
-      <h2 className={themeStatus ? "text-dark" : "text-light"}>CONTACT</h2>
+      <h2 className={themeStatus ? "text-dark" : "text-light"}>Let's talk!</h2>
       <div className={themeStatus ? "contact-container-dark" : "contact-container-light"}>
         <div className="contact-sub-container">          
           <h4>(52) 55 40 76 24 69</h4>         
@@ -24,7 +24,6 @@ const Contact = () => {
             <button className={themeStatus ? "button-dark" : "button-light"}>Send WhatsApp</button>
           </a>
         </div>
-      </div>
       </div>
     </div>
   )

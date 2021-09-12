@@ -1,4 +1,4 @@
-import './App.css';
+import "./styles/global.css"
 import Home from './components/Home';
 import ThemeProvider from './theme/ThemeProvider';
 

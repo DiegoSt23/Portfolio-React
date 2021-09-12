@@ -4,14 +4,14 @@
       "imageUrl": "https://i.imgur.com/FvtQzTk.png",
       "projectUrl": "https://pokedex-diegost23.vercel.app/",
       "name": "Pokedex",
-      "description": "React App made with the Pokemon API where the user can search for Pokemons by name, ID or type to find information about them.",
+      "description": "Made with the Pokemon API, you can search for Pokemons by name, ID or type to find images and information about them.",
       "id": 1
     },
     {
       "imageUrl": "https://i.imgur.com/PiwQJLy.png",
       "projectUrl": "https://rick-and-morty-location-searcher-by-diego.vercel.app/",
       "name": "Rick & Morty",
-      "description": "React App made with the Rick & Morty API, the user can search the locations of the series universe to get information about 'em like the name, location, characters; etc",
+      "description": "React App made with the Rick & Morty API, you search the locations of the series to get information about 'em like name, type, characters; etc",
       "id": 2
     },
     {
@@ -25,7 +25,7 @@
       "imageUrl": "https://i.imgur.com/WtRc6Ej.png",
       "projectUrl": "https://weather-app-diego.vercel.app/",
       "name": "Weather App",
-      "description": "React App made with the Open Weather Map API, you can check the current weather in your location.",
+      "description": "Made with the Open Weather Map API, you can check the current weather in your location.",
       "id": 4
     },
     {

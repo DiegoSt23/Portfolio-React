@@ -1,0 +1,6 @@
+.error-message-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

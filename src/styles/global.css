@@ -1,0 +1,119 @@
+/* ///////////////GLOBAL STYLES/////////////// */
+
+.main-container {
+  width: 100%;
+  font-size: 1.2rem;
+}
+.container-dark-theme {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease;
+  background-image: url("../Images/dark.jpg");
+  background-size: cover;
+}
+.container-light-theme {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease;
+  background-image: url("../Images/light.jpg");
+  background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+.button-dark {
+  padding: 10px 20px;
+  background-color: rgb(2, 218, 200);
+  border: solid 1px rgb(2, 218, 200);
+  transition: all 0.5s ease;
+}
+.button-dark:hover {
+  cursor: pointer;
+  background-color: rgb(5, 255, 234);
+  border: solid 1px rgb(5, 255, 234);
+  transition: 0.3s;
+}
+.button-light {
+  padding: 10px 20px;
+  background-color: red;
+  border: solid 1px red;
+  transition: all 0.5s ease;
+}
+.button-light:hover {
+  cursor: pointer;
+  background-color: rgb(167, 0, 0);
+  border: solid 1px rgb(167, 0, 0);
+  color: white;
+  transition: 0.3s;
+}
+.text-dark {
+  text-decoration: none;
+  color: rgb(2, 218, 200);
+  font-weight: bolder;
+  transition: all 0.5s ease; 
+}
+.text-light {
+  text-decoration: none;
+  color: red;
+  font-weight: bolder;
+  transition: all 0.5s ease; 
+}
+.text-dark-2 {
+  color: white;
+  transition: all 0.5s ease;
+}
+.text-light-2 {
+  color: black;
+  transition: all 0.5s ease;
+}
+p {
+  font-weight: 100;
+}
+.icon-dark {
+  font-size: 2rem;
+  color: rgb(2, 218, 200);
+  transition: all 0.5s ease; 
+  cursor: pointer;
+}
+.icon-light {
+  font-size: 2rem;
+  color: red;
+  transition: all 0.5s ease; 
+  cursor: pointer;
+}
+.icon-dark:hover {
+  transform: scale(1.1)
+}
+.icon-light:hover {
+  transform: scale(1.1)
+}
+.icon-dark-2 {
+  font-size: 2rem;
+  color: rgb(2, 218, 200);
+  transition: all 0.5s ease;
+}
+.icon-light-2 {
+  font-size: 2rem;
+  color: red;
+  transition: all 0.5s ease;
+}
+
+/* //////////////////////RESPONSIVE//////////////////////// */
+
+@media screen and (max-width: 576px) {
+  .main-container {
+    font-size: 1rem;
+  }
+}
+
+

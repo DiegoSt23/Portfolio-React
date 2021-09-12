@@ -1,3 +1,4 @@
+import "../styles/error.css";
 import { NavLink } from "react-router-dom";
 import useTheme from "../theme/useTheme";
 

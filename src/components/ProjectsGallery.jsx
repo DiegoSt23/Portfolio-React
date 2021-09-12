@@ -1,3 +1,4 @@
+import "../styles/gallery.css";
 import { useState } from "react";
 import useTheme from "../theme/useTheme";
 import Data from "../Projects.json"
