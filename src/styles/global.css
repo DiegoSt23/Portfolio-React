@@ -49,7 +49,7 @@
   background-size: cover;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap");
 
 .button-dark {
   padding: 10px 20px;
@@ -80,13 +80,13 @@
   text-decoration: none;
   color: rgb(2, 218, 200);
   font-weight: bolder;
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
 }
 .text-light {
   text-decoration: none;
   color: red;
   font-weight: bolder;
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
 }
 .text-dark-2 {
   color: white;
@@ -102,20 +102,20 @@ p {
 .icon-dark {
   font-size: 2rem;
   color: rgb(2, 218, 200);
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 .icon-light {
   font-size: 2rem;
   color: red;
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
   cursor: pointer;
 }
 .icon-dark:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 .icon-light:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 .icon-dark-2 {
   font-size: 2rem;
@@ -135,5 +135,3 @@ p {
     font-size: 1rem;
   }
 }
-
-
