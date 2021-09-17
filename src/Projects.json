@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "imageUrl": "https://i.imgur.com/FvtQzTk.png",
-      "projectUrl": "https://pokedex-diegost23.vercel.app/",
+      "imageUrl": "https://i.imgur.com/Gb1c6X9.png",
+      "projectUrl": "https://pokedex-app-diego.vercel.app/",
       "name": "Pokedex",
       "description": "Made with the Pokemon API, you can search for Pokemons by name, ID or type to find images and information about them.",
       "id": 1
@@ -34,6 +34,13 @@
       "name": "Quote Machine",
       "description": "A simple React App to generate random quotes and share your favorite on Twitter.",
       "id": 5
-    }  
+    },
+    {
+      "imageUrl": "https://i.imgur.com/Rpvqyl3.png",
+      "projectUrl": "https://diego-countries-app.vercel.app/",
+      "name": "Countries App",
+      "description": "You can search for all the countries all over the world to find information and the weather.",
+      "id": 6
+    } 
   ]
 }

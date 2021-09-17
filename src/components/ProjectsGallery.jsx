@@ -26,7 +26,7 @@ const ProjectsGallery = () => {
   ));
 
   const next = () => {
-    if (slice1 === 4 && slice2 === 5) {
+    if (slice1 === 5 && slice2 === 6) {
       setSlice1(0);
       setSlice2(1);
     } else {
@@ -37,8 +37,8 @@ const ProjectsGallery = () => {
 
   const prev = () => {
     if (slice1 === 0 && slice2 === 1) {
-      setSlice1(4);
-      setSlice2(5);
+      setSlice1(5);
+      setSlice2(6);
     } else {
       setSlice1((prevState) => prevState - 1);
       setSlice2((prevState) => prevState - 1);
