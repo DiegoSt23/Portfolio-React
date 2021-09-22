@@ -8,39 +8,46 @@
       "id": 1
     },
     {
+      "imageUrl": "https://i.imgur.com/FxWGuEs.png",
+      "projectUrl": "https://to-do-app-diego.vercel.app/",
+      "name": "To Do App",
+      "description": "A React App to make a list and save your to-dos.",
+      "id": 2
+    },
+    {
       "imageUrl": "https://i.imgur.com/PiwQJLy.png",
       "projectUrl": "https://rick-and-morty-location-searcher-by-diego.vercel.app/",
       "name": "Rick & Morty",
       "description": "React App made with the Rick & Morty API, you search the locations of the series to get information about 'em like name, type, characters; etc",
-      "id": 2
+      "id": 3
     },
     {
       "imageUrl": "https://i.imgur.com/GYY9gl6.png",
       "projectUrl": "https://trivia-livid.vercel.app/",
       "name": "Trivia",
       "description": "A trivia to test your knowledge in different topics.",
-      "id": 3
+      "id": 4
     },
     {
       "imageUrl": "https://i.imgur.com/WtRc6Ej.png",
       "projectUrl": "https://weather-app-diego.vercel.app/",
       "name": "Weather App",
       "description": "Made with the Open Weather Map API, you can check the current weather in your location.",
-      "id": 4
+      "id": 5
     },
     {
       "imageUrl": "https://i.imgur.com/TdHbXar.png",
       "projectUrl": "https://quote-machine-two.vercel.app/",
       "name": "Quote Machine",
       "description": "A simple React App to generate random quotes and share your favorite on Twitter.",
-      "id": 5
+      "id": 6
     },
     {
       "imageUrl": "https://i.imgur.com/Rpvqyl3.png",
       "projectUrl": "https://diego-countries-app.vercel.app/",
       "name": "Countries App",
       "description": "You can search for all the countries all over the world to find information and the weather.",
-      "id": 6
+      "id": 7
     } 
   ]
 }
