@@ -41,13 +41,6 @@
       "name": "Quote Machine",
       "description": "A simple React App to generate random quotes and share your favorite on Twitter.",
       "id": 6
-    },
-    {
-      "imageUrl": "https://i.imgur.com/Rpvqyl3.png",
-      "projectUrl": "https://diego-countries-app.vercel.app/",
-      "name": "Countries App",
-      "description": "You can search for all the countries all over the world to find information and the weather.",
-      "id": 7
-    } 
+    }
   ]
 }
