@@ -5,8 +5,8 @@ import Data from "../Projects.json";
 import ProjectContainer from "./ProjectContainer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faChevronCircleRight,
-  faChevronCircleLeft,
+  faChevronRight,
+  faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectsGallery = () => {
@@ -52,7 +52,7 @@ const ProjectsGallery = () => {
       <div className="gallery-container">
         <div className="nav-buttons-container">
           <FontAwesomeIcon
-            icon={faChevronCircleLeft}
+            icon={faChevronLeft}
             onClick={prev}
             className={themeStatus ? "icon-dark" : "icon-light"}
           />
@@ -66,7 +66,7 @@ const ProjectsGallery = () => {
         </div>
         <div className="nav-buttons-container">
           <FontAwesomeIcon
-            icon={faChevronCircleRight}
+            icon={faChevronRight}
             onClick={next}
             className={themeStatus ? "icon-dark" : "icon-light"}
           />
