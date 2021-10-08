@@ -6,6 +6,7 @@ import {
   faCss3Alt,
   faJs,
   faReact,
+  faSass
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
@@ -73,6 +74,10 @@ const Services = () => {
           />
           <FontAwesomeIcon
             icon={faCss3Alt}
+            className={themeStatus ? "icon-dark-2" : "icon-light-2"}
+          />
+          <FontAwesomeIcon
+            icon={faSass}
             className={themeStatus ? "icon-dark-2" : "icon-light-2"}
           />
           <FontAwesomeIcon
