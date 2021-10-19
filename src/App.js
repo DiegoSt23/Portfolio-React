@@ -34,7 +34,7 @@ function App() {
             className="preloader"
           >
             <motion.path
-              d="M 57 0 L 0 85 H 113 L 57 0"             
+              d="M 49 0 L 0 85 H 99 L 49 0"             
               variants={icon}
               initial="hidden"
               animate="visible"
