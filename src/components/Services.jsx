@@ -1,100 +1,98 @@
-import "../styles/services.css";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3, DiSass } from "react-icons/di";
+import { BiCodeAlt, BiGitBranch } from "react-icons/bi";
+import { MdOutlinePhonelink } from "react-icons/md";
+import { SiJavascript } from "react-icons/si";
+import { GrReactjs } from "react-icons/gr";
+import { SiRedux } from "react-icons/si";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGit,
-  faHtml5,
-  faCss3Alt,
-  faJs,
-  faReact,
-  faSass
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faCode,
-  faLaptopCode,
-  faCodeBranch,
-} from "@fortawesome/free-solid-svg-icons";
-import useTheme from "../theme/useTheme";
+import { faGit } from "@fortawesome/free-brands-svg-icons"
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const Services = () => {
-  const { themeStatus } = useTheme();
+  const {ref, inView} = useInView();
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        y: 0,
+        opacity: 1,
+        transition: {
+          type: "just",
+          duration: 1
+        }
+      });      
+    }
+  }, [inView, animation]);
 
   return (
-    <div
-      className={themeStatus ? "container-dark-theme" : "container-light-theme"}
-    >
+    <section className="skills-background" id="services">
       <div className="services-container">
-        <h2 className={themeStatus ? "text-dark" : "text-light"}>SKILLS</h2>
-        <div className="services-sub-container">
-          <div className="services-sub-container2">
-            <FontAwesomeIcon
-              icon={faCode}
-              className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-            />
-            <h3 className={themeStatus ? "text-dark-2" : "text-light-2"}>
+        <h2>SKILLS</h2>
+        <div className="services-sub-container" ref={ref}>
+          <motion.div 
+            className="services-sub-container-2"
+            initial={{y: 100, opacity: 0}}
+            animate={animation}
+          >
+            <BiCodeAlt className="skill-icon"/>
+            <h3>
               Web Development
             </h3>
-            <p className={themeStatus ? "text-dark-2" : "text-light-2"}>
+            <p className="text">
               Dynamic webpages and SPAs development with the use of HTML, CSS,
-              JavaScript and React with Context, Hooks, Router. REST APIs
+              JavaScript and React with Hooks, Router and Redux. REST APIs
               consumption.
             </p>
-          </div>
-          <div className="services-sub-container2">
-            <FontAwesomeIcon
-              icon={faLaptopCode}
-              className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-            />
-            <h3 className={themeStatus ? "text-dark-2" : "text-light-2"}>
+          </motion.div>
+          <motion.div 
+            className="services-sub-container-2"
+            initial={{y: 100, opacity: 0}}
+            animate={animation}
+          >
+            <MdOutlinePhonelink className="skill-icon"/>
+            <h3>
               Web Design
             </h3>
-            <p className={themeStatus ? "text-dark-2" : "text-light-2"}>
+            <p className="text">
               Web pages with responsive design, in other words, adaptable for
               different screen sizes to make them always look good and and easy
               to use.
             </p>
-          </div>
-          <div className="services-sub-container2">
-            <FontAwesomeIcon
-              icon={faCodeBranch}
-              className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-            />
-            <h3 className={themeStatus ? "text-dark-2" : "text-light-2"}>
+          </motion.div>
+          <motion.div 
+            className="services-sub-container-2"
+            initial={{y: 100, opacity: 0}}
+            animate={animation}            
+          >
+            <BiGitBranch className="skill-icon"/>
+            <h3>
               Code Branching
             </h3>
-            <p className={themeStatus ? "text-dark-2" : "text-light-2"}>
+            <p className="text">
               Managament of code branching with the use of Git which allows to
               teamwork without impacting other developers.
             </p>
-          </div>
+          </motion.div>
         </div>
-        <div className="icons-container">
-          <FontAwesomeIcon
-            icon={faHtml5}
-            className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-          />
-          <FontAwesomeIcon
-            icon={faCss3Alt}
-            className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-          />
-          <FontAwesomeIcon
-            icon={faSass}
-            className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-          />
-          <FontAwesomeIcon
-            icon={faJs}
-            className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-          />
-          <FontAwesomeIcon
-            icon={faReact}
-            className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-          />
-          <FontAwesomeIcon
-            icon={faGit}
-            className={themeStatus ? "icon-dark-2" : "icon-light-2"}
-          />
-        </div>
+        <motion.div 
+          className="icons-container-2"
+          initial={{y: 100, opacity: 0}}
+          animate={animation}
+        >
+          <AiFillHtml5/>
+          <DiCss3/>
+          <DiSass/>
+          <SiJavascript/>
+          <GrReactjs/>
+          <SiRedux/>
+          <FontAwesomeIcon icon={faGit}/>
+        </motion.div>        
       </div>
-    </div>
+    </section>
   );
 };
 

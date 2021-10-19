@@ -4,21 +4,21 @@
       "imageUrl": "https://i.imgur.com/cYaBbns.jpg",
       "projectUrl": "https://metal-records-store.vercel.app/",
       "name": "Metal Records Store",
-      "description": "A demo store with some awesome metal records.",
+      "description": "A demo store with some awesome metal records. It's been made with React, Router, Context and some Hooks like useState, useEffect, useReducer, etc.",
       "id": 1
     },
     {
       "imageUrl": "https://i.imgur.com/Gb1c6X9.png",
       "projectUrl": "https://pokedex-app-diego.vercel.app/",
       "name": "Pokedex",
-      "description": "Made with the Pokemon API, you can search for Pokemons by name, ID or type to find images and information about them.",
+      "description": "Made with the Pokemon API, you can search for Pokemons by name, ID or type to find images, type, statistics and general information about them, also you can save your favorites!.",
       "id": 2
     },
     {
       "imageUrl": "https://i.imgur.com/FxWGuEs.png",
       "projectUrl": "https://to-do-app-diego.vercel.app/",
       "name": "To Do App",
-      "description": "A React App to make a list and save your to-dos.",
+      "description": "A simple React App to make a to-do list.",
       "id": 3
     },
     {
@@ -32,7 +32,7 @@
       "imageUrl": "https://i.imgur.com/GYY9gl6.png",
       "projectUrl": "https://trivia-livid.vercel.app/",
       "name": "Trivia",
-      "description": "A trivia to test your knowledge about different topics.",
+      "description": "Made with the Open Trivia API, a trivia to test your knowledge about different topics.",
       "id": 5
     },
     {
@@ -41,6 +41,6 @@
       "name": "Weather App",
       "description": "Made with the Open Weather Map API, you can check the current weather in your location.",
       "id": 6
-    }
+    }    
   ]
 }

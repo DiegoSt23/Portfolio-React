@@ -1,45 +1,65 @@
+.skills-background {
+  background-image: url("../assets/Images/keyboard.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 .services-container {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-top: 100px;
+  align-items: center;
 }
 .services-sub-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  margin-top: 30px;
   margin-bottom: 30px;
+  justify-content: space-between;
 }
-.services-sub-container2 {
-  width: 30%;
-  margin-top: 50px;
+.services-sub-container-2 {
+  width: 33.333%;
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+}
+.services-sub-container-2 h3 {
+  color: #00dbc9;
+}
+.icons-container-2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: #00dbc9;
+}
+.skill-icon {
+  font-size: 2rem;
+  color: #00dbc9;
 }
 
 /* //////////////////////RESPONSIVE//////////////////////// */
 
 @media screen and (max-width: 992px) {
   .services-container {
-    margin-bottom: 50px;
-    margin-top: 150px;
+    width: 90%;
+    margin: 60px 0px;
   }
-  .services-sub-container {
-    flex-direction: column;
-    justify-content: center;
+  .icons-container-2 {
+    width: 70%;
   }
-  .services-sub-container2 {
-    width: 60%;
-    margin: auto;
-    margin-top: 80px;
+  .services-sub-container-2 {
+    padding: 10px;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .services-sub-container2 {
-    width: 100%;
-    margin-top: 50px;
+  .services-sub-container {
+    flex-wrap: wrap;
   }
-  .services-container {
-    margin-top: 80px;
+  .services-sub-container-2 {
+    width: 100%;
+  }
+  .icons-container-2 {
+    width: 100%;
   }
 }
