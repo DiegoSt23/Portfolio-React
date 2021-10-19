@@ -99,6 +99,9 @@
     width: 60%; 
     font-size: 1rem;
   }
+  .logo-container {
+    width: 100px;
+  }
   .main-logo-container {
     width: 80%;
   }
