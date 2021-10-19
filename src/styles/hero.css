@@ -1,6 +1,6 @@
 .hero-main-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url("../assets/Images/dark.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -84,7 +84,6 @@
     width: 40%; 
   }
   .hero {
-    padding: 150px 0px;
     text-align: center;
   }
   .main-logo-container {
@@ -98,6 +97,7 @@
 @media screen and (max-width: 576px) {
   .nav-bar {
     width: 60%; 
+    font-size: 1rem;
   }
   .main-logo-container {
     width: 80%;
