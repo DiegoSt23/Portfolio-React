@@ -46,9 +46,3 @@
     width: 60%;
   }
 }
-
-@media screen and (max-width: 576px) {
-  .icons-container {
-    width: 100%;
-  }
-}

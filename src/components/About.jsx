@@ -30,8 +30,8 @@ const About = () => {
   }, [inView, animation, animation2])
 
   return (
-    <section>
-      <div className="about-container" ref={ref} id="about">
+    <section id="about">
+      <div className="about-container" ref={ref} >
         <motion.div 
           className="about-sub-container"
           initial={{x: -100, opacity: 0}}
