@@ -36,10 +36,10 @@
       "id": 5
     },
     {
-      "imageUrl": "https://i.imgur.com/WtRc6Ej.png",
-      "projectUrl": "https://weather-app-diego.vercel.app/",
+      "imageUrl": "https://i.imgur.com/lS8ls7g.jpg",
+      "projectUrl": "https://weather-app-tarea.vercel.app/",
       "name": "Weather App",
-      "description": "Made with the Open Weather Map API, you can check the current weather in your location.",
+      "description": "Made with the Open Weather Map API, you can check the current weather in your location or other cities in the world.",
       "id": 6
     }    
   ]
