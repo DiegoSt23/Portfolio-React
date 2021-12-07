@@ -36,10 +36,10 @@
       "id": 5
     },
     {
-      "imageUrl": "https://i.imgur.com/FxWGuEs.png",
-      "projectUrl": "https://to-do-app-diego.vercel.app/",
-      "name": "To Do App",
-      "description": "A simple React App to make a to-do list.",
+      "imageUrl": "https://i.imgur.com/4ncycHN.jpg",
+      "projectUrl": "https://new-year-countdown-gray.vercel.app/",
+      "name": "New Year Coundown Timer",
+      "description": "A React App which displays the remaining days, hours, minutes and seconds until new year! It works with every year. This is one of the Frontendmentor.io challenges.",
       "id": 6
     }    
   ]
