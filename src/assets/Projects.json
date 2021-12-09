@@ -22,25 +22,39 @@
       "id": 3
     },
     {
+      "imageUrl": "https://i.imgur.com/9PuRUks.jpg",
+      "projectUrl": "https://todo-frontend-mentor-wheat.vercel.app/",
+      "name": "Todo App",
+      "description": "Made with React, a simple app to make a todo list, you can filter by all, incomplete or completed tasks. Also select light or dark themes.",
+      "id": 4
+    },
+    {
       "imageUrl": "https://i.imgur.com/lS8ls7g.jpg",
       "projectUrl": "https://weather-app-tarea.vercel.app/",
       "name": "Weather App",
       "description": "Made with the Open Weather Map API, you can check the current weather in your location or other cities in the world.",
-      "id": 4
+      "id": 5
     },
     {
       "imageUrl": "https://i.imgur.com/Gb1c6X9.png",
       "projectUrl": "https://pokedex-app-diego.vercel.app/",
       "name": "Pokedex",
       "description": "Made with the Pokemon API, you can search for Pokemons by name, ID or type to find images, type, statistics and general information about them, also you can save your favorites!.",
-      "id": 5
+      "id": 6
     },
     {
       "imageUrl": "https://i.imgur.com/4ncycHN.jpg",
       "projectUrl": "https://new-year-countdown-gray.vercel.app/",
       "name": "New Year Coundown Timer",
       "description": "A React App which displays the remaining days, hours, minutes and seconds until new year! It works with every year. This is one of the Frontendmentor.io challenges.",
-      "id": 6
+      "id": 7
+    },
+    {
+      "imageUrl": "https://i.imgur.com/lQXosre.png",
+      "projectUrl": "https://trivia-livid.vercel.app/",
+      "name": "Trivia",
+      "description": "A trivia to test your knowledge about different topics.",
+      "id": 8
     }    
   ]
 }
